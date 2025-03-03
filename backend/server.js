@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import http from 'http';
-import app from './app.js';
+import app from '../app.js';
 import { Server } from 'socket.io';
 import jwt from 'jsonwebtoken';
 import mongoose from 'mongoose';
