@@ -1,5 +1,13 @@
 {
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix fontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "concurrently": "^7.0.0"
   }
 }
