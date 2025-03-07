@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 import projectModel from './models/project.model.js';
 import { generateResult } from './services/ai.service.js';
 
-const port = process.env.PORT || 3000; // Ensure the port number is correct
+const port = process.env.PORT || 5000; // Ensure the port number is correct
 
 const server = http.createServer(app);
 const io = new Server(server, {
