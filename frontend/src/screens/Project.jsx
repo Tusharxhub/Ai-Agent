@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext, useRef } from 'react'
-import { UserContext } from '../context/user.context'
+import { UserContext } from '../context/user.context.jsx'
 import { useNavigate, useLocation } from 'react-router-dom'
-import axios from '../config/axios'
+import axios from '../config/axios.jsx'
 import { initializeSocket, receiveMessage, sendMessage } from '../config/socket'
 import Markdown from 'markdown-to-jsx'
 import hljs from 'highlight.js';

@@ -1,11 +1,11 @@
 import React, { Suspense, lazy } from 'react'
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
-import UserAuth from '../auth/UserAuth'
+import UserAuth from '../auth/UserAuth.jsx'
 
-const Login = lazy(() => import('../screens/Login'))
-const Register = lazy(() => import('../screens/Register'))
-const Home = lazy(() => import('../screens/Home'))
-const Project = lazy(() => import('../screens/Project'))
+const Login = lazy(() => import('../screens/Login.jsx'))
+const Register = lazy(() => import('../screens/Register.jsx'))
+const Home = lazy(() => import('../screens/Home.jsx'))
+const Project = lazy(() => import('../screens/Project.jsx'))
 
 const AppRoutes = () => {
     return (
