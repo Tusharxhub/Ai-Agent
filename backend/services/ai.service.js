@@ -31,8 +31,8 @@ const model = genAI.getGenerativeModel({
                 });
 
 
-                app.listen(5500, () => {
-                    console.log('Server is running on port 5500');
+                app.listen(8080, () => {
+                    console.log('Server is running on port 8080');
                 })
                 "
             
