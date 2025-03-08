@@ -15,7 +15,8 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/cdn/, '')
       }
-    }
+    },
+    port: 3002,
   },
   build: {
     rollupOptions: {

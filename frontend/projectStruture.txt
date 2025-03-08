@@ -1,0 +1,32 @@
+.env
+.gitignore
+eslint.config.js
+index.html
+package.json
+README.md
+tailwind.config.js
+vite.config.js
+public/
+  └── Logo.svg
+src/
+  ├── App.jsx
+  ├── index.css
+  ├── main.jsx
+  ├── assets/
+  │   └── react.svg
+  ├── auth/
+  │   └── UserAuth.jsx
+  ├── config/
+  │   ├── axios.js
+  │   ├── socket.js
+  │   └── webContainer.js
+  ├── context/
+  │   ├── user.context.jsx
+  │   └── UserProvider.jsx
+  ├── routes/
+  │   └── AppRoutes.jsx
+  └── screens/
+      ├── Home.jsx
+      ├── Login.jsx
+      ├── Project.jsx
+      └── Register.jsx
