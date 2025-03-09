@@ -25,7 +25,7 @@ const UserAuth = ({ children }) => {
             navigate('/login')
         }
 
-    }, [])
+    }, [navigate, token, user])
 
     if (loading) {
         return <div>Loading...</div>
