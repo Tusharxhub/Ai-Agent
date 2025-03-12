@@ -2,7 +2,7 @@
 🚀 *An intelligent automation system designed to perform complex tasks with minimal human intervention.*  
 
 <p align="center">
-  <img src="https://github.com/Tusharxhub/Ai-Agent/blob/main/Logo.jpg?raw=true">
+  <img src="https://github.com/Tusharxhub/Ai-Agent/blob/main/logo.png?raw=true">
 </p>
 
 ---
